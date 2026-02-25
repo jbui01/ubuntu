@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Hello from Ubuntu-based Docker container 🚀");
+  res.send("Hello from Virginia 🚀");
 });
 
 const port = process.env.PORT || 8080;
